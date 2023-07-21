@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguine Shop</title>
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CSS Link -->
@@ -18,7 +19,80 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header></header>
+    <header class="bg-[#FFFBF0] lg:h-screen">
+      <!-- Header Container -->
+      <div
+        class="flex flex-col gap-2 items-center px-5 py-7 lg:flex-row lg:justify-between lg:px-32 lg:py-10"
+      >
+        <!-- Logo Container -->
+        <div>
+          <a><img class="w-96 h-14" src="./icons/logo.png" alt="" /></a>
+        </div>
+        <!-- Nav Links Container -->
+        <div>
+          <ul class="flex gap-4 flex-wrap items-center lg:gap-8">
+            <li>
+              <a
+                class="text-[#3c3c3c] text-base primary-font font-medium"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#3c3c3c] text-base primary-font font-medium"
+                href="#"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#3c3c3c] text-base primary-font font-medium"
+                href="#"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#3c3c3c] text-base primary-font font-medium"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <header class="mt-12">
+        <!-- Banner Container -->
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between lg:pl-32 lg:items-center lg:pb-16"
+        >
+          <!-- Banner Content -->
+          <div class="w-full pl-6 pr-12 space-y-4 lg:w-1/2">
+            <h1 class="text-6xl font-normal secondary-font">
+              <span class="text-[#FABE4C]">Be the Penguins</span> <br />
+              of Winter
+            </h1>
+            <p
+              class="text-[#3E3E3E] text-lg font-normal primary-font leading-6 w-10/12"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a
+              href="#"
+              class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-8 py-5 text-white rounded-lg inline-block"
+            >
+              Buy Now</a
+            >
+          </div>
+          <!-- Banner Image -->
+          <div class="w-full pl-8 pt-20 lg:w-1/2 lg:mb-">
+            <img src="./images/model.png" alt="" />
+          </div>
+        </div>
+      </header>
+    </header>
     <!-- Header End -->
 
     <!-- Main Start -->
